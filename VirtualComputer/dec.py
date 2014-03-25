@@ -23,6 +23,8 @@ def op(inst):
         ret = 9
     elif inst >= 110000 and inst < 120000:
         ret = 10
+    else:
+        raise Exception("Invalid instruction: " + inst)
 
     return ret
 
