@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "CypherGeneration", "CypherGeneration\CypherGeneration.pyproj", "{C9A43B94-8336-4092-90ED-1CCB33DA552C}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UnitTests", "UnitTests\UnitTests.pyproj", "{4029C08E-F1E6-4BCC-B454-7713F8AB010E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C9A43B94-8336-4092-90ED-1CCB33DA552C} = {C9A43B94-8336-4092-90ED-1CCB33DA552C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9A43B94-8336-4092-90ED-1CCB33DA552C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A43B94-8336-4092-90ED-1CCB33DA552C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A43B94-8336-4092-90ED-1CCB33DA552C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A43B94-8336-4092-90ED-1CCB33DA552C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4029C08E-F1E6-4BCC-B454-7713F8AB010E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4029C08E-F1E6-4BCC-B454-7713F8AB010E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4029C08E-F1E6-4BCC-B454-7713F8AB010E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4029C08E-F1E6-4BCC-B454-7713F8AB010E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
