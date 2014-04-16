@@ -3,16 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>c9a43b94-8336-4092-90ed-1ccb33da552c</ProjectGuid>
-    <ProjectHome>
-    </ProjectHome>
-    <StartupFile>
-    </StartupFile>
-    <SearchPath>..\Shared</SearchPath>
+    <ProjectGuid>089e975c-e95f-4550-9c71-72186b716a4b</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>LtrUtil.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>CypherGeneration</Name>
-    <RootNamespace>Cyphers</RootNamespace>
+    <Name>Shared</Name>
+    <RootNamespace>Shared</RootNamespace>
     <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
@@ -25,14 +24,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CaesarianShift\CaesarianShift.py" />
+    <Compile Include="LtrUtil.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CaesarianShift\" />
-    <Folder Include="Affine\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>

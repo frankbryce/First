@@ -5,12 +5,15 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4029c08e-f1e6-4bcc-b454-7713f8ab010e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UnitTests.py</StartupFile>
-    <SearchPath>..\CypherGeneration\CaesarianShift</SearchPath>
+    <StartupFile>
+    </StartupFile>
+    <SearchPath>..\CypherGeneration\CaesarianShift;..\Shared</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>UnitTests</Name>
     <RootNamespace>UnitTests</RootNamespace>
+    <InterpreterId>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,7 +25,10 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="CypherGenerationTests.py" />
-    <Compile Include="UnitTests.py" />
+    <Compile Include="LtrUtilTests.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>

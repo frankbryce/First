@@ -2,28 +2,9 @@ import unittest
 import CaesarianShift as cs
 ut = unittest
 
-# Here's our "unit".
-def IsOdd(n):
-    return n % 2 == 1
-
 # Here's our "unit tests".
 class CypherGenerationTests(unittest.TestCase):
     def testCaesarianShift(self):
-        # test _isCapLtr function
-        self.assert_(cs._isCapLtr('A'))
-        self.assert_(cs._isCapLtr('M'))
-        self.assert_(cs._isCapLtr('Z'))
-
-        # test _isLwrLtr function
-        self.assert_(cs._isLwrLtr('a'))
-        self.assert_(cs._isLwrLtr('m'))
-        self.assert_(cs._isLwrLtr('z'))
-
-        # test _shiftChr function
-        self.assert_(cs._shiftChr('a',10) == 'k')
-        self.assert_(cs._shiftChr('z',5) == 'e')
-        self.assert_(cs._shiftChr('B',10) == 'L')
-        self.assert_(cs._shiftChr('Y',5) == 'D')
 
         # test encode function
         self.assert_(cs.encode("Hello World;",5) == "Mjqqt Btwqi;")

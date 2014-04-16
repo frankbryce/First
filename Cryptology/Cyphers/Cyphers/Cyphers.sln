@@ -10,6 +10,8 @@ Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "UnitTests", "UnitTests\Unit
 		{C9A43B94-8336-4092-90ED-1CCB33DA552C} = {C9A43B94-8336-4092-90ED-1CCB33DA552C}
 	EndProjectSection
 EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Shared", "Shared\Shared.pyproj", "{089E975C-E95F-4550-9C71-72186B716A4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{4029C08E-F1E6-4BCC-B454-7713F8AB010E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4029C08E-F1E6-4BCC-B454-7713F8AB010E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4029C08E-F1E6-4BCC-B454-7713F8AB010E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{089E975C-E95F-4550-9C71-72186B716A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{089E975C-E95F-4550-9C71-72186B716A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{089E975C-E95F-4550-9C71-72186B716A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{089E975C-E95F-4550-9C71-72186B716A4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
