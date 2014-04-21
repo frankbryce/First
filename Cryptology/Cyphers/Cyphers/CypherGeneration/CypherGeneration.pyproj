@@ -25,6 +25,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Affine\Affine.py" />
+    <Compile Include="AtBash\Atbash.py" />
+    <Compile Include="Bifid\Bifid.py" />
+    <Compile Include="Bifid\BifidUtil.py" />
     <Compile Include="CaesarianShift\CaesarianShift.py" />
   </ItemGroup>
   <ItemGroup>
@@ -33,6 +37,8 @@
   <ItemGroup>
     <Folder Include="CaesarianShift\" />
     <Folder Include="Affine\" />
+    <Folder Include="AtBash\" />
+    <Folder Include="Bifid\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>

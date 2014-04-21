@@ -7,7 +7,7 @@
     <ProjectHome>.</ProjectHome>
     <StartupFile>
     </StartupFile>
-    <SearchPath>..\CypherGeneration\CaesarianShift;..\Shared</SearchPath>
+    <SearchPath>..\Shared;..\CypherGeneration\CaesarianShift;..\CypherGeneration\Affine;..\CypherGeneration\AtBash;..\CypherGeneration\Bifid</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>UnitTests</Name>
@@ -24,8 +24,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="AffineTests.py" />
+    <Compile Include="AtbashTests.py" />
+    <Compile Include="BifidTests.py" />
     <Compile Include="CypherGenerationTests.py" />
+    <Compile Include="KeyedCaesarTests.py" />
     <Compile Include="LtrUtilTests.py" />
+    <Compile Include="StrUtilTests.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
