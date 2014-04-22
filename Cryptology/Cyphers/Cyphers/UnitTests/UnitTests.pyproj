@@ -7,7 +7,7 @@
     <ProjectHome>.</ProjectHome>
     <StartupFile>
     </StartupFile>
-    <SearchPath>..\Shared;..\CypherGeneration\CaesarianShift;..\CypherGeneration\Affine;..\CypherGeneration\AtBash;..\CypherGeneration\Bifid</SearchPath>
+    <SearchPath>..\Shared;..\CypherGeneration\CaesarianShift;..\CypherGeneration\Affine;..\CypherGeneration\AtBash;..\CypherGeneration\Bifid;..\CypherGeneration\KeyedCaesar;..\CypherGeneration\ColTrans</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>UnitTests</Name>
@@ -27,6 +27,7 @@
     <Compile Include="AffineTests.py" />
     <Compile Include="AtbashTests.py" />
     <Compile Include="BifidTests.py" />
+    <Compile Include="colTransTests.py" />
     <Compile Include="CypherGenerationTests.py" />
     <Compile Include="KeyedCaesarTests.py" />
     <Compile Include="LtrUtilTests.py" />

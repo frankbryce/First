@@ -30,6 +30,8 @@
     <Compile Include="Bifid\Bifid.py" />
     <Compile Include="Bifid\BifidUtil.py" />
     <Compile Include="CaesarianShift\CaesarianShift.py" />
+    <Compile Include="ColTrans\ColTrans.py" />
+    <Compile Include="KeyedCaesar\KeyedCaesar.py" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="{2af0f10d-7135-4994-9156-5d01c9c11b7e}\2.7" />
@@ -39,6 +41,8 @@
     <Folder Include="Affine\" />
     <Folder Include="AtBash\" />
     <Folder Include="Bifid\" />
+    <Folder Include="KeyedCaesar\" />
+    <Folder Include="ColTrans\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
