@@ -1,0 +1,4 @@
+CurrState state1 state2 state3 state4 state5
+letter1 state5:Left state1:Left state2:Left state3:Left state4:Left
+letter2 state1:Stay state2:Stay state3:Stay state4:Stay state5:Stay 
+letter3 state2:Right state3:Right state4:Right state5:Right state1:Right
